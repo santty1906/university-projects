@@ -1,6 +1,12 @@
 #include <stdio.h>
 
-//Espacio para las funciones
+    //Bloque declarativo de constante
+    #define proyectos 3
+    #define semanas 12
+    #define maxTareas 100
+    #define maxNombre 50
+
+    //Espacio para las funciones
 
 int main (){
     //Declaracion de variables
