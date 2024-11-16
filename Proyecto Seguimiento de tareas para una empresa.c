@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-
-
+//Espacio para las funciones
 
 int main (){
+    //Declaracion de variables
     char 
     int opcion = 0, i = 0;
     float
 
     do{
-
+        //Menu de opciones
         printf("Menú de opciones: (Ingrese un número como opción)\n");
         printf("1. Ingresar datos de las tareas.\n");
         printf("2. Ingresar estado semanal de cada tarea.\n");
@@ -19,10 +19,12 @@ int main (){
         printf("6. Salir.\n");
         printf("\nSeleccione una opción: ");
         scanf("%d", &opcion);
-        
+
+        //Si el usuario coloca un número distinto del que esta en el menu
         if (opcion < 1 || opcion > 6){
             printf("Error al escoger la opción, por favor verifique e introduzca el número nuevamente");
-        
+
+        //Si el usuario coloca un número coorecto del que esta en el menu
         }else{
             switch(opcion){
                 case 1:{
@@ -54,7 +56,7 @@ int main (){
 
         }
     
-    
+    //El codigo termine si se escoge la opcion de salir
     }while( opcion != 6);
     
     return 0;
