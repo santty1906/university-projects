@@ -4,6 +4,9 @@
 
 int main (){
     //Declaracion de variables
+    int numTareas[i]
+    char tareasNombresYEstado[i][j];
+
     char 
     int opcion = 0, i = 0;
     float
