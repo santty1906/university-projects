@@ -1,4 +1,4 @@
-//Proeyecto seguimiento de tareas para una empresa
+//Proyecto seguimiento de tareas para una empresa
 
 #include <stdio.h>
 // Declaración de constantes.
