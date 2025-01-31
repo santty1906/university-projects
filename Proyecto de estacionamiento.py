@@ -1,4 +1,5 @@
-# 
+# # Ejemplo de proyecto de estacionamiento pero en lenguaje Python, trabaje solo las funciones y coloque datos predeterminados para que se viera el ejemplo de como queda en lenguaje Python
+
 
 class Estacionamiento:
     def __init__(self):
